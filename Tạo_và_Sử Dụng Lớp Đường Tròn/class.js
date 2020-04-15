@@ -12,7 +12,7 @@ let Circle = function (radius) {
         let circle=document.getElementById("myCanvas");
         let ctx = circle.getContext('2d');
         ctx.beginPath();
-        ctx.arc(50,50,radius,0 ,2*Math.PI);
+        ctx.arc(250,250,radius,0 ,2*Math.PI);
         ctx.stroke();
     }
 };
